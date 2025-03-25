@@ -38,8 +38,20 @@ class _HomePageState extends State<HomePage> {
           Container(
             color: Colors.red,
             height: 100,
-            width: 100,
-          )
+            width: 100),
+            Container(
+            color: Colors.green,
+            height: 100,
+            width: 100),
+            Container(
+            color: Colors.blue,
+            height: 100,
+            width: 100),
+            Container(
+            color: Colors.yellow,
+            height: 100,
+            width: 100),
+          
         ]
       ),
       bottomNavigationBar: BottomAppBar(),
